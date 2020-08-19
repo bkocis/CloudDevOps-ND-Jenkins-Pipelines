@@ -16,26 +16,61 @@ The main file is the Jenkinsfile, containing the configuration settings for a si
 
 
 ### Screenshots 
-<img src="screenshots/screenshot-01.png" width=40%
 
-<img src="screenshots/screenshot-02.png" width=40%
+1. The AWS console with the permissions being created
 
-<img src="screenshots/screenshot-03.png" width=40%
+<img src="screenshots/screenshot-01.png" width=40%>
 
-<img src="screenshots/screenshot-04.png" width=40%
 
-<img src="screenshots/screenshot-05.png" width=40%
+2. The unique AWS URL of your EC2
 
-<img src="screenshots/screenshot-05-b.png" width=40%
+<img src="screenshots/screenshot-02.png" width=40%>
 
-<img src="screenshots/screenshot-05-c.png" width=40%
 
-<img src="screenshots/screenshot-05-a.png" width=40%
+3. Jenkins running on unique AWS URL 
 
-<img src="screenshots/screenshot-06-b.png" width=40%
+<img src="screenshots/screenshot-03.png" width=40%>
 
-<img src="screenshots/screenshot-07.png" width=40%
 
-<img src="screenshots/screenshot-07-multistage-pipeline.png" width=40%
+4. AWS urlr with the Blue Ocean link in the sidebar
 
-<img src="screenshots/screenshot-08.png" width=40%
+<img src="screenshots/screenshot-04.png" width=40%>
+
+
+5. GitHub project as a pipeline - master branch 
+
+<img src="screenshots/screenshot-05.png" width=40%>
+
+
+5. GitHub project as a pipeline - multibranch/stage pipeline as in BlueOcean
+
+<img src="screenshots/screenshot-05-b.png" width=40%>
+
+
+5. GitHub project as a pipeline - master brach pipeline successful build 
+
+<img src="screenshots/screenshot-05-c.png" width=40%>
+
+
+6. AWS link to S3 with the index.html file 
+
+<img src="screenshots/screenshot-06-a.png" width=40%>
+
+
+6. rendering of the index.html from the S3 
+
+<img src="screenshots/screenshot-06-b.png" width=40%>
+
+
+7. Linting fail 
+
+<img src="screenshots/screenshot-07.png" width=40%>
+
+7. multistage and their state 
+
+<img src="screenshots/screenshot-07-multistage-pipeline.png" width=40%>
+
+
+8. example of linting fix and AWS upload in the pipeline on non-master branch 
+
+<img src="screenshots/screenshot-08.png" width=40%>
