@@ -1,23 +1,41 @@
-## ND9991 - C3 - Build CI/CD Pipelines, Monitoring, and Logging
-This repository provides the supporting material for the "ND9991 Cloud DevOps Nanodegree - C3 - Build CI/CD Pipelines, Monitoring, and Logging" course. This repo has two more branches, other than the master branch. 
+## Build Jenkins Pipelines
+This repository provides the project description for the deployment of a static website on S3 AWS using the Jenkins Pipeline.
+The files in this repository contain a simple index.html file for testing the linting stage and the final upload. 
+The main file is the Jenkinsfile, containing the configuration settings for a simple build pipeline and deployment.
 
-* Blue/Green branch corresponds to the Blue/Green deployment strategy. Make sure that you checkout branches "blue" and "green" to see how blue/green deployment was performed in the course.
-* You can create any more branches for a multiple pipeline set-up, as directed in the demonstration video. 
 
 ### Dependencies
 ##### 1. AWS account
-You would require to have an AWS account to be able to build cloud infrastructure. Particularly, you will need to create S3 buckets, EC2 instances, and IAM users.
 
-#### 2. Jenkins on Ubuntu VM
-As a part of the project, you will need to install Jenkins and a few plugins to assist your requirements, as mentioned in the "Jenkins Pipelines on AWS --> Project Details" page in the classroom. 
+#### 2. Jenkins
 
 ## Prerequisite
-1. A little knowledge of basic commands in Unix terminal.
-1. Understanding of software testing frameworks - JMeter and JUnit
-1. Understanding of deployment strategies 
+1. AWS account with a user (non root) having restricted permission
+1. create an ec2 instance, install and configure Jenkins running on it
+1. modify the "Jenkinsfile" in order to include linting, security check, and upload to AWS 
 
 
+### Screenshots 
+<img src="screenshots/screenshot-01.png" width=40%
 
+<img src="screenshots/screenshot-02.png" width=40%
 
+<img src="screenshots/screenshot-03.png" width=40%
 
+<img src="screenshots/screenshot-04.png" width=40%
 
+<img src="screenshots/screenshot-05.png" width=40%
+
+<img src="screenshots/screenshot-05-b.png" width=40%
+
+<img src="screenshots/screenshot-05-c.png" width=40%
+
+<img src="screenshots/screenshot-05-a.png" width=40%
+
+<img src="screenshots/screenshot-06-b.png" width=40%
+
+<img src="screenshots/screenshot-07.png" width=40%
+
+<img src="screenshots/screenshot-07-multistage-pipeline.png" width=40%
+
+<img src="screenshots/screenshot-08.png" width=40%
